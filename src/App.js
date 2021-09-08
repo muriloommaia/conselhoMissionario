@@ -10,8 +10,9 @@ function App() {
     <div >
     <Header />
     <ButtonSubscribe />
-    <Information />
     <Aulas />
+    <Information />
+    <ButtonSubscribe />
     <Footer />
     </div>
   );
