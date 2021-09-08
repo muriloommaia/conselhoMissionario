@@ -2,9 +2,10 @@ import React from 'react';
 
 class AulaOito extends React.Component {
   render() {
-    <div>
-            <h3>Aula 8:</h3>
-      <h2>Relatórios (por parte dos missionários)</h2>
+    return (
+      <div>
+        <h3>Aula 8:</h3>
+        <h2>Relatórios (por parte dos missionários)</h2>
         <div>
           <img />
           <span>Planejamento</span>
@@ -12,7 +13,9 @@ class AulaOito extends React.Component {
           <span>Carta</span>
           <span>Vídeos</span>
         </div>
-    </div>
+      </div>
+
+    )
   }
 }
 

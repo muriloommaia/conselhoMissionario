@@ -8,7 +8,7 @@ class AulaDez extends React.Component {
         <h3>Aula 10:</h3>
         <p>Cuidado Integral do Missionário
           pela igreja local – CIM</p>
-      </div>
+      </div> 
     )
   }
 }
