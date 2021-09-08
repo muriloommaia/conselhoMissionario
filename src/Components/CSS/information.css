@@ -1,0 +1,13 @@
+.image-information img {
+  width: auto;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.text-information {
+  height: 100px;
+}
+
+.box-information{
+  min-height: 300px;
+}
