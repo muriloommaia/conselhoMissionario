@@ -7,7 +7,7 @@ class AulaOito extends React.Component {
         <h3>Aula 8:</h3>
         <h2>Relatórios (por parte dos missionários)</h2>
         <div>
-          <img />
+          {/* <img /> */}
           <span>Planejamento</span>
           <span>Relatório</span>
           <span>Carta</span>

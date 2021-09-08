@@ -5,19 +5,19 @@ class AulaNove extends React.Component {
     return (
       <div>
         <div>
-          <img />
+          {/* <img /> */}
           <p>Igreja Local</p>
         </div>
         <div>
-          <img />
+          {/* <img /> */}
           <p>Igreja Parceira</p>
         </div>
         <div>
-          <img />
+          {/* <img /> */}
           <p>Agência Missionária</p>
         </div>
         <div>
-          <img />
+          {/* <img /> */}
           <p>Impacto Exponencial</p>
         </div>
         <div>
