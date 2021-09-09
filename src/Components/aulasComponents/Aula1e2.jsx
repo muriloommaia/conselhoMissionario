@@ -9,8 +9,8 @@ class Aula1e2 extends React.Component {
         <h3>Aulas 1 e 2</h3>
       </div>
         <div className='d-flex flex-column box-aula justify-content-center'>
-          <p className='h4 py-3 paragrafo'>Dez passos para iniciar um conselho missionário</p>
-          <p className='h4 py-3 paragrafo'>Primeira Reunião do Conselho Missionário</p>
+          <p className='h4 fs-3 fw-bold paragrafo'>Dez passos para iniciar um conselho missionário</p>
+          <p className='h4 fs-3 fw-bold paragrafo'>Primeira Reunião do Conselho Missionário</p>
         </div>
       </div>
     )
