@@ -26,11 +26,12 @@ class Aulas extends React.Component {
     const classes = [<Aula1e2 />, <Aula345 />, <AulaSeis />, <AulaSete />, <AulaOito />, <AulaNove />, <AulaDez />];
     return (
       <section className='bg-light p-4 text-center'>
+        {/* <hr className='hr50'/> */}
         <h1>Programa de Aulas</h1>
-        <hr />
         {aulas.map((item, idx) => {
           return (
             <button
+              key={idx}
               className='btn btn-dark m-2'
               onClick={() => this.onClick(idx)}> {item}
             </button>

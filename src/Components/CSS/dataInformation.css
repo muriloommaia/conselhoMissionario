@@ -1,0 +1,20 @@
+.data-information {
+  width: 100%;
+  min-height: 150px;
+}
+.data-information * {
+  width: 150px;
+  text-align: center;
+}
+
+.icon-zoom {
+  background-color: #0e71eb;
+  color: white;
+  padding: 5px;
+  border-radius: 15%;
+  font-size: 1.3em;
+}
+
+a, a:hover {
+  color: white;
+}

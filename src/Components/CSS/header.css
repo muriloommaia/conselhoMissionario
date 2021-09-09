@@ -1,13 +1,64 @@
 .bg-image {
-  background-image: url('../../arquivosPDF/sermon-mission.jpg');
+  /* background-image: url('../../arquivosPDF/sermon-mission.jpg'); */
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.4)), url('../../arquivosPDF/sermon-mission.jpg');
+
   min-height: 60vh;
+  max-height: 90vh;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 3rem 0rem 3rem;
-
+  opacity: 98%;
 }
 
-.header {
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&display=swap');
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Cormorant', serif;
+  color: black;
+  /* font-weight: 900; */
+  font-size: 6vw;
+}
+
+.header p {
+  font-family: 'Cormorant', serif;
+  color: black;
+  /* font-weight: 900; */
+  font-size: 4vw;
+}
+
+.box-header {
+  flex-basis: 40%;
+}
+@media screen and (max-width: 560px) {
+  .bg-image {
+    min-height: 25vh;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 3rem 0rem 3rem;
+  }
+
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-family: 'Cormorant', serif;
+    color: black;
+    /* font-weight: 900; */
+    font-size: 8vw;
+  }
+  
+  .header p {
+    font-family: 'Cormorant', serif;
+    color: black;
+    /* font-weight: 900; */
+    font-size: 5vw;
+  }
 }

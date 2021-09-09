@@ -7,6 +7,7 @@ class Aula345 extends React.Component {
       <div className='p-4'>
         <div className='box-aula-titulo'>
           <h3>Aulas 3 a 5</h3>
+          <hr className='hr50p px-5' />
         </div>
         <div className='container'>
           <div className='row box-aula align-items-center'>

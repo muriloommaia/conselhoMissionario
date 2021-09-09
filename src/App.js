@@ -1,6 +1,7 @@
 import './App.css';
 import Aulas from './Components/Aulas';
 import ButtonSubscribe from './Components/ButtonSubscribe';
+import DataInformacoes from './Components/DataInformacoes';
 import Footer from './Components/Footer.jsx';
 import Header from './Components/Header';
 import Information from './Components/Information';
@@ -8,12 +9,23 @@ import Information from './Components/Information';
 function App() {
   return (
     <div >
-    <Header />
-    <ButtonSubscribe />
-    <Aulas />
-    <Information />
-    <ButtonSubscribe />
-    <Footer />
+      <Header />
+      <div className='my-5'>
+        <ButtonSubscribe />
+      </div>
+      <div className='my-5'>
+        <DataInformacoes />
+      </div>
+      <div className='my-5'>
+        <Aulas />
+      </div>
+      <div className='my-5'>
+        <Information />
+      </div>
+      <div className='my-5'>
+        <ButtonSubscribe />
+      </div>
+      <Footer />
     </div>
   );
 }

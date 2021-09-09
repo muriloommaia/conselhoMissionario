@@ -1,3 +1,7 @@
+.image-information {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
 .image-information img {
   width: auto;
   height: 200px;
@@ -5,9 +9,13 @@
 }
 
 .text-information {
-  height: 100px;
+  height: 80px;
+  vertical-align: center;
+  margin: auto;
 }
 
 .box-information{
   min-height: 300px;
+  opacity: 93%;
 }
+

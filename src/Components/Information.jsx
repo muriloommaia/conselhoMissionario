@@ -11,9 +11,9 @@ class Information extends React.Component {
         <div className="row">
           { textInformation.map((item, idx) => {
             return (
-          <div className="col box-information">
-            <div className='text-information text-center'>
-              <p className='h2'>
+          <div key={ idx } className="col box-information">
+            <div className='text-information text-center d-flex align-items-center justify-content-center'>
+              <p className='h3'>
                 { item }
               </p>
             </div>

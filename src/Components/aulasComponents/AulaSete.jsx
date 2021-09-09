@@ -6,6 +6,7 @@ class AulaSete extends React.Component {
       <div className='p-4'>
         <div className='box-aula-titulo'>
           <h3>Aula 7</h3>
+          <hr className='hr50p' />
           <h4>Agências Missionárias, Adoção de Pequenos grupos e culto de envio</h4>
         </div>
         <div className='container'>

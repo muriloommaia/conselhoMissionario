@@ -7,6 +7,7 @@ class AulaOito extends React.Component {
       <div className='p-4'>
         <div className='box-aula-titulo'>
           <h3>Aula 8</h3>
+          <hr className='hr50p' />
           <h4>Relatórios (por parte dos missionários)</h4>
         </div>
         <div className='container d-flex box-aula align-items-center justify-content-evenly'>

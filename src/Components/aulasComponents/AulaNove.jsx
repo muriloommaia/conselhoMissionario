@@ -8,6 +8,7 @@ class AulaNove extends React.Component {
       <div className='p-4'>
         <div className='box-aula-titulo'>
           <h3>Aula 9</h3>
+          <hr className='hr50p' />
         </div>
         <div className='container'>
           <div className='row box-aula align-items-center'>
@@ -15,13 +16,13 @@ class AulaNove extends React.Component {
               {text.map((item, idx) => {
                 return (
                   <div className='d-flex flex-column align-items-center'>
-                  <div className='image-aula-nove' >
-                    <img
-                      src={`imagens/${imagens[idx]}.png`}
-                      alt={imagens[idx]}
-                      
-                    />
-                  </div>
+                    <div className='image-aula-nove' >
+                      <img
+                        src={`imagens/${imagens[idx]}.png`}
+                        alt={imagens[idx]}
+
+                      />
+                    </div>
                     <p>{item}</p>
                   </div>
                 )
