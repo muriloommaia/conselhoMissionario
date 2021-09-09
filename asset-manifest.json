@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/conselhoMissionario/static/css/main.ef59dad7.chunk.css",
+    "main.css": "/conselhoMissionario/static/css/main.db977654.chunk.css",
     "main.js": "/conselhoMissionario/static/js/main.71feab66.chunk.js",
     "main.js.map": "/conselhoMissionario/static/js/main.71feab66.chunk.js.map",
     "runtime-main.js": "/conselhoMissionario/static/js/runtime-main.4d4a6edf.js",
@@ -10,14 +10,14 @@
     "static/js/3.ee0b3ed7.chunk.js": "/conselhoMissionario/static/js/3.ee0b3ed7.chunk.js",
     "static/js/3.ee0b3ed7.chunk.js.map": "/conselhoMissionario/static/js/3.ee0b3ed7.chunk.js.map",
     "index.html": "/conselhoMissionario/index.html",
-    "static/css/main.ef59dad7.chunk.css.map": "/conselhoMissionario/static/css/main.ef59dad7.chunk.css.map",
+    "static/css/main.db977654.chunk.css.map": "/conselhoMissionario/static/css/main.db977654.chunk.css.map",
     "static/js/2.c227809f.chunk.js.LICENSE.txt": "/conselhoMissionario/static/js/2.c227809f.chunk.js.LICENSE.txt",
     "static/media/header.css": "/conselhoMissionario/static/media/sermon-mission.979a62e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d4a6edf.js",
     "static/js/2.c227809f.chunk.js",
-    "static/css/main.ef59dad7.chunk.css",
+    "static/css/main.db977654.chunk.css",
     "static/js/main.71feab66.chunk.js"
   ]
 }
