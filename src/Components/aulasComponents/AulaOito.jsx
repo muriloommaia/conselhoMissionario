@@ -11,7 +11,7 @@ class AulaOito extends React.Component {
           <h4>Relatórios (por parte dos missionários)</h4>
         </div>
         <div className='container d-flex box-aula align-items-center justify-content-evenly'>
-          <div className='relatorios d-flex'>
+          <div className='relatorios d-flex flex-wrap'>
             {text.map((item, idx) => {
               if (idx !== 3) {
                 return (
