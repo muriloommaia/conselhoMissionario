@@ -16,6 +16,13 @@
 
 .box-information{
   min-height: 300px;
-  opacity: 93%;
+  opacity: 80%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.box-information:hover {
+  opacity: 100%;
+  transform: scale(1.1);
 }
 
