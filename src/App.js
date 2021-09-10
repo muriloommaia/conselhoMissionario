@@ -1,6 +1,7 @@
 import './App.css';
 import Aulas from './Components/Aulas';
 import ButtonSubscribe from './Components/ButtonSubscribe';
+import ClockDay from './Components/ClockDay';
 import DataInformacoes from './Components/DataInformacoes';
 import Footer from './Components/Footer.jsx';
 import Header from './Components/Header';
@@ -11,6 +12,7 @@ function App() {
     <div >
       <Header />
       <div className='my-5'>
+        <ClockDay />
         <ButtonSubscribe />
       </div>
       <div className='my-5'>

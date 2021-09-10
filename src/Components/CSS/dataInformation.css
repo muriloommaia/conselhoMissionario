@@ -5,6 +5,7 @@
 .data-information * {
   width: 150px;
   text-align: center;
+  margin: 15px;
 }
 
 .icon-zoom {

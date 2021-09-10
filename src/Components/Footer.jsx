@@ -9,9 +9,9 @@ function Footer() {
             <h3 className="title color-footer text-center">Fale Conosco</h3>
             <p className="footer-text m-0 text-center">
               contato: <br />
-              |67| 9 9974-8261 || djalma@1b.org.br</p>
+              |61| 9 8269-0479 || ibctmissoes@gmail.com</p>
             <div className="d-flex justify-content-between">
-              <a href="#as"><i className="fab fa-whatsapp"></i></a>
+              <a href="https://wa.me/556199474700" target='_blank' rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
               <a href="#as"><i className="fab fa-instagram"></i></a>
               <a href="#as"><i className="fab fa-facebook"></i></a>
             </div>
