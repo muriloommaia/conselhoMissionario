@@ -1,8 +1,12 @@
 import React from 'react';
+const agenciaM = require('../../arquivosPDF/imagens/agenciaM.png').default;
+const target = require('../../arquivosPDF/imagens/target.png').default;
+const igrejaLocal = require('../../arquivosPDF/imagens/igrejaLocal.png').default;
+const igrejaParceira = require('../../arquivosPDF/imagens/igrejaParceira.png').default;
 
 class AulaNove extends React.Component {
   render() {
-    const imagens = ['igrejaLocal', 'igrejaParceira', 'agenciaM', 'target'];
+    const imagens = [igrejaLocal, igrejaParceira, agenciaM, target];
     const text = ['Igreja Local', 'Igreja Parceira', 'Agência Missionária', 'Impacto Exponencial']
     return (
       <div className='p-4'>
@@ -18,7 +22,7 @@ class AulaNove extends React.Component {
                   <div className='d-flex flex-column align-items-center'>
                     <div className='image-aula-nove' >
                       <img
-                        src={`imagens/${imagens[idx]}.png`}
+                        src={imagens[idx]}
                         alt={imagens[idx]}
 
                       />

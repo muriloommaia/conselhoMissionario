@@ -1,10 +1,13 @@
 import React from "react";
 import './CSS/information.css'
+const stonks = require('../arquivosPDF/imagens/stonks.png').default;
+const aulasIn = require('../arquivosPDF/imagens/aulasIn.png').default;
+const tempoAula = require('../arquivosPDF/imagens/tempoAula.png').default;
 
 class Information extends React.Component {
   render() {
     const textInformation = ['10 Aulas com interação', '1 hora e 30 minutos para cada aula', 'Investimento de R$ 50,00'];
-    const imageInformation = ['imagens/aulasIn.png', 'imagens/tempoAula.png', 'imagens/stonks.png'];
+    const imageInformation = [aulasIn, tempoAula, stonks];
 
     return (
       <div className="container">

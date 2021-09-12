@@ -8,15 +8,15 @@ class DataInformacoes extends React.Component {
         <hr className='hr50' />
         <div className='d-flex justify-content-evenly data-information align-items-center flex-wrap'>
           <div className='d-flex flex-column align-items-center justify-content-envenly'>
-            <p>Data de Início</p>
+            <p className='fw-bold'>Data de Início</p>
             <p>02/10/2021</p>
           </div>
           <div className='d-flex flex-column align-items-center justify-content-envenly'>
-            <p>Horario das Aulas</p>
+            <p className='fw-bold'>Horário das Aulas</p>
             <p>das 15h às 16:30h</p>
           </div>
           <div className='d-flex flex-column align-items-center justify-content-envenly'>
-            <p>Data de Finalização</p>
+            <p className='fw-bold'>Data de Finalização</p>
             <p>04/12/2021</p>
           </div>
         </div>
