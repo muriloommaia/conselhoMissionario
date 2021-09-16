@@ -1,5 +1,5 @@
 {
-  "homepage": "http://muriloommaia.github.io/conselhoMissionario",
+  "homepage": "https://myusername.github.io/",
   "name": "consmissionario",
   "version": "0.1.0",
   "private": true,
@@ -14,12 +14,14 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "homepage": "http://muriloommaia.github.io/conselhoMissionario",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "firebase-deploy": "export PATH=/home/muriloomaia/.npm-global/bin:$PATH && npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [
