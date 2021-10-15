@@ -9,7 +9,11 @@ function ClockDay () {
     const diaFaltante = Math.floor(diferenca/milisegundos);
     return diaFaltante
   }
-
+if (timeLeft() < 0) return (
+  <div className='d-flex justify-content-center mb-3'>
+  <h3>O curso já iniciou, aguarde novas vagas</h3>
+</div>
+)
 return (
   <div className='d-flex justify-content-center mb-3'>
     <h3>Faltam <span className='fs-2'>{ timeLeft() }</span> dias</h3>
