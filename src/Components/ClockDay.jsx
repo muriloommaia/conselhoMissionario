@@ -10,8 +10,10 @@ function ClockDay () {
     return diaFaltante
   }
 if (timeLeft() < 0) return (
-  <div className='d-flex justify-content-center mb-3'>
-  <h3>O curso já iniciou, aguarde novas vagas</h3>
+  <div className='d-flex flex-column align-items-center mb-3 mx-auto'>
+  <h2>Nova Turma</h2>
+  <h3>Faça sua inscrição para a turma de fevereiro de 2022</h3>
+  <cite>As vagas são limitadas</cite>
 </div>
 )
 return (
