@@ -19,3 +19,7 @@
 a, a:hover {
   color: white;
 }
+
+.diminute {
+  font-size: 0.8em;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 function ClockDay () {
   const timeLeft = () => {
-    const dataOficial = new Date("10/02/2021");
+    const dataOficial = new Date("02/10/2022");
     const dataHoje = new Date();
     const diferenca = dataOficial.getTime() - dataHoje.getTime();
     const milisegundos = 1000*60*60*24;
