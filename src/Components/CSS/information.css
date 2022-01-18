@@ -16,7 +16,7 @@
 
 .box-information{
   min-height: 300px;
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.5s;
   cursor: pointer; 
 }
