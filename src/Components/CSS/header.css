@@ -25,9 +25,16 @@
   font-size: 6vw;
 }
 
+.header h2 {
+  font-family: 'Cormorant', serif;
+  color: black;
+  /* font-weight: 900; */
+  font-size: 3vw;
+}
 .header p {
   font-family: 'Cormorant', serif;
   color: black;
+  margin-top: 1em;
   /* font-weight: 900; */
   font-size: 4vw;
 }
@@ -51,13 +58,23 @@
   .header h1 {
     font-family: 'Cormorant', serif;
     color: black;
+    line-height: 1.4rem;
+    margin-bottom: 0;
     /* font-weight: 900; */
     font-size: 8vw;
   }
-  
+  .header h2 {
+    font-family: 'Cormorant', serif;
+    color: black;
+    line-height: 1.4rem;
+    /* font-weight: 900; */
+    margin-bottom: 0px;
+    font-size: 4vw;
+  }
   .header p {
     font-family: 'Cormorant', serif;
     color: black;
+    margin-top: 5px;
     /* font-weight: 900; */
     font-size: 5vw;
   }
