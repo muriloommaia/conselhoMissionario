@@ -6,7 +6,7 @@ section {
 }
 
 .box-aula {
-  min-height: 250px;
+  min-height: 200px;
 }
 
 li {
@@ -20,7 +20,7 @@ ul {
 }
 
 .box-aula-titulo {
-  min-height: 100px;
+  min-height: 80px;
 }
 
 .relatorios * {
