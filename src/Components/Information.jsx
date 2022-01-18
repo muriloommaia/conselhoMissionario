@@ -6,7 +6,7 @@ const tempoAula = require('../arquivosPDF/imagens/tempoAula.png').default;
 
 class Information extends React.Component {
   render() {
-    const textInformation = ['10 Aulas em 3 (três) dias', '1 hora e 30 minutos para cada aula', 'Investimento de R$ 50,00'];
+    const textInformation = ['Aula presencial e virtual', '3 dias de aula', 'Investimento de R$ 50,00'];
     const imageInformation = [aulasIn, tempoAula, stonks];
 
     return (
